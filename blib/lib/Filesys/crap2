@@ -1,0 +1,4 @@
+#!/usr/local/bin/perl
+use DiskUsage;
+$a_ref=fs_stat("/tmp");
+print"$a_ref->{PER}\n";
